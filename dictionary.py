@@ -60,11 +60,3 @@ for i in range(5):
 else :
  print("soory no i")
 
-
-
-#raising value error
-a = int(input("enter the value between 5 and 9"))
-
-if ( a<5 or a>9):
- raise valueError("value sghould be between 5 an 9")
- 
